@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
 body {
   margin: 0;
   padding: 0;
@@ -77,15 +79,203 @@ body {
   float: left;
   width: 690px;
   height: 369px;
-  background-color: red;
 }
+
+.about {
+  position: relative;
+  padding: 35px 60px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.about__block {
+  width: 250px;
+  height: 274px;
+  float: left;
+}
+
+.about__block:first-child {
+  margin-right: 70px;
+}
+
+.about__block_title {
+  font-family: 'Questrial', sans-serif;
+  letter-spacing: 0.1px;
+  font-size: 32px;
+  color: #08afee;
+}
+
+.about__block_slogan {
+    font-family: 'Questrial', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #7f7f7f;
+    margin-top: 20px;
+}
+
+.about__block_slogan:before {
+    content: '';
+    float: left;
+    width: 14px;
+    height: 50px;
+    margin-right: 8px;
+    background: url('image/quot1.png') no-repeat;
+}
+
+.about__block_slogan:after {
+    content: '';
+    background-color: 1px solid black;
+    display: inline-block;
+    width: 14px;
+    height: 9px;
+    margin: 0 0 4px 8px;
+    background: url('image/quot2.png') no-repeat;
+}
+
+.about__block_text {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #4d4d4d;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.about__block_footer {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #08afee;
+    margin-top: 30px;
+}
+
+.about__block_icons {
+    width: 71px;
+    height: 31px;
+    margin-top: 40px;
+}
+
+.about__block_up {
+    float: left;
+    margin-right: 9px;
+    width: 31px;
+    height: 31px;
+    background: url('image/markers.png');
+}
+
+.about__block_down {
+    float: left;
+    width: 31px;
+    height: 31px;
+    background: url('image/markers.png') 30px 0;
+}
+
+.about__block_up:hover,
+.about__block_down:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.about__exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    background: url('image/close.gif');
+}
+
+.about__block_underline {
+    text-decoration: underline;
+}
+
+.about__block_bold {
+    font-weight: bold;
+}
+
+.about__exit:hover {
+    cursor: pointer;
+}
+
+
+
+
 
 
 
 
 
 .footer {
+  float: left;
+/*    position: relative;*/
   width: 100%;
   height: 131px;
-  background-color: blue;
+  background-color: white;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
 }
+
+.footer__block-left {
+    line-height: 131px;
+    vertical-align: middle;
+    width: 270px;
+    height: 131px;
+    outline: 1px solid red;
+    text-align: center;
+}
+
+.footer__number {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #059be8;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 3px;
+    color: white;
+}
+
+.footer__block_center {
+    height: 30px;
+}
+
+.footer__block-left_icons {
+/*    position: absolute;*/
+/*    bottom: 50px;*/
+    display: inline-block;
+    width: 93px;
+    height: 18px;
+    margin: 0 auto 0 auto;
+    outline: 1px solid red;
+}
+
+.footer_icon a {
+    float: left;
+    margin-right: 7px;
+    width: 18px;
+    height: 18px;
+}
+
+.footer_icon:nth-child(1) a {
+    background: url('image/icon1.jpg');
+}
+
+.footer_icon:nth-child(2) a {
+    background: url('image/icon2.jpg');
+}
+
+.footer_icon:nth-child(3) a {
+    background: url('image/icon3.jpg');
+}
+
+.footer_icon:nth-child(4) a {
+    background: url('image/icon4.jpg');
+    margin-right: 0;
+}
+/*
+
+.footer__block-right {
+    float: left;
+    width: 829px;
+    height: 131px;
+    outline: 1px solid black;
+}*/
