@@ -1,0 +1,26 @@
+.schedule {
+    position: relative;
+    width: 690px;
+    top: -275px;
+}
+
+.schedule__position {
+    position: absolute;
+    background: white;
+    opacity: 0.9;
+    width: 690px;
+    height: 639px;
+    padding: 50px 60px;
+    box-sizing: border-box;
+}
+
+.schedule__exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    background: url('../../image/close.gif');
+    cursor: pointer;
+}
+

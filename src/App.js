@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import './App.css';
-import Logo from './components/logo';
-import About from './components/about';
-import Contacts from './components/contacts';
-import Prices from './components/prices';
-import Schedule from './components/schedule';
-import OurTeachers from './components/our-teachers';
-import Footer from './components/footer';
+import Logo from './components/logo/logo';
+import About from './components/about/about';
+import Contacts from './components/contacts/contacts';
+import Prices from './components/prices/prices';
+import Schedule from './components/schedule/schedule';
+import OurTeachers from './components/our-teachers/our-teachers';
+import Footer from './components/footer/footer';
 
 class App extends Component {
   render() {

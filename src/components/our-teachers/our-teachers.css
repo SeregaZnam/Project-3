@@ -1,0 +1,79 @@
+.teachers {
+    position: relative;
+    width: 690px;
+    top: -275px;
+}
+
+.teachers__exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    background: url('../../image/close.gif');
+    cursor: pointer;
+}
+
+.teachers__position {
+    position: absolute;
+    background: white;
+    opacity: 0.9;
+    width: 690px;
+    height: 639px;
+    padding: 50px 60px;
+    box-sizing: border-box;
+}
+
+.teachers__header {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+    color: #08afee;
+}
+
+.teachers__block {
+    width: 565px;
+    height: 143px;
+    margin-bottom: 26px;
+}
+
+.teachers__header_img {
+    float: left;
+    width: 220px;
+    height: inherit;
+}
+
+.img-one {
+    background: url('../../image/page2_img1.jpg');
+}
+
+.img-two {
+    background: url('../../image/page2_img2.jpg');
+}
+
+.img-three {
+    background: url('../../image/page2_img3.jpg');
+}
+
+.teachers__content {
+    float: right;
+    width: 324px;
+    height: inherit;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.teachers__content_heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.teachers__content_text {
+    line-height: 24px;
+}
+
+.teachers__content_info {
+    margin-top: 18px;
+    color: #08afee;
+}
+

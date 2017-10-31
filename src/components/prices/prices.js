@@ -4,7 +4,10 @@ export default class Prices extends Component {
     render () {
         return (
             <div className='prices'>
-                Prices
+                <div className="prices__position">
+                    Prices
+                </div>
+                <div className="prices__exit"></div>
             </div>
         );
     }

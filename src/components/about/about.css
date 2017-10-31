@@ -1,0 +1,114 @@
+.about {
+    position: relative;
+    top: -5px;
+    padding: 35px 60px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.about__block {
+    width: 250px;
+    height: 274px;
+    float: left;
+}
+
+.about__block:first-child {
+    margin-right: 70px;
+}
+
+.about__block_title {
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 0.1px;
+    font-size: 32px;
+    color: #08afee;
+}
+
+.about__block_slogan {
+    font-family: 'Questrial', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #7f7f7f;
+    margin-top: 20px;
+}
+
+.about__block_slogan:before {
+    content: '';
+    float: left;
+    width: 14px;
+    height: 50px;
+    margin-right: 8px;
+    background: url('../../image/quot1.png') no-repeat;
+}
+
+.about__block_slogan:after {
+    content: '';
+    background-color: 1px solid black;
+    display: inline-block;
+    width: 14px;
+    height: 9px;
+    margin: 0 0 4px 8px;
+    background: url('../../image/quot2.png') no-repeat;
+}
+
+.about__block_text {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #4d4d4d;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.about__block_footer {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #08afee;
+    margin-top: 30px;
+}
+
+.about__block_icons {
+    width: 71px;
+    height: 31px;
+    margin-top: 40px;
+}
+
+.about__block_up {
+    float: left;
+    margin-right: 9px;
+    width: 31px;
+    height: 31px;
+    background: url('../../image/markers.png');
+}
+
+.about__block_down {
+    float: left;
+    width: 31px;
+    height: 31px;
+    background: url('../../image/markers.png') 30px 0;
+}
+
+.about__block_up:hover,
+.about__block_down:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.about__exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    background: url('../../image/close.gif');
+}
+
+.about__block_underline {
+    text-decoration: underline;
+}
+
+.about__block_bold {
+    font-weight: bold;
+}
+
+.about__exit:hover {
+    cursor: pointer;
+}

@@ -4,7 +4,10 @@ export default class Contacts extends Component {
     render () {
         return (
             <div className='contacts'>
-                Contacts
+                <div className="contacts__position">
+                    Contacts
+                </div>
+                <div className="contacts__exit"></div>
             </div>
         );
     }
