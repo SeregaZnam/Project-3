@@ -12,14 +12,21 @@ export default class Footer extends Component {
                             <div className="footer__number">2</div>
                             <div className="footer__number">3</div>
                         </div>
-                            <div className="footer__block-left_icons">
+                        <div className="footer__block-left_icons">
                             <div className="footer_icon"><a href="#"></a></div>
-                            <div className="footer_icon"><a href="#"></a></div>
+                            <div className="footer_icon"></div>
                             <div className="footer_icon"><a href="#"></a></div>
                             <div className="footer_icon"><a href="#"></a></div>
                         </div>
                     </div>
-                    <div className="footer__block-right"></div>
+                    <div className="footer__block-right">
+                        <div className="footer__block_vertical">
+                            <div className="footer__block_vercenter">
+                                <span className="footer__block_blue">Hatha Yoga</span> Copyright 2011<br></br>
+                                Website Template by <span className="footer__block_blue">TemplateMonster.com</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
