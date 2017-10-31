@@ -24,3 +24,53 @@
     cursor: pointer;
 }
 
+.schedule__header {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+    color: #08afee;
+    line-height: 20px;
+    margin-bottom: 27px;
+}
+
+.schedule__table {
+    width: 570px;
+    height: 370px;
+    margin-bottom: 24px;
+}
+
+.schedule__table_block {
+    border-collapse: collapse;
+}
+
+.schedule__table_col {
+    border: 1px solid #96c5d5;
+    width: 80px;
+    height: 38px;
+    text-align: center;
+}
+
+.schedule__table_row:nth-child(2n+1) .schedule__table_col:nth-child(2n+1) {
+    background-color: #d0f1fc;
+}
+
+.schedule__table_row:nth-child(2n-1) .schedule__table_col:nth-child(2n) {
+    background-color: #cff0fc;
+}
+
+.schedule__table_row:nth-child(2n) .schedule__table_col:nth-child(2n+1) {
+    background-color: #e5f7fc;
+}
+
+.schedule__table_row:nth-child(2n) .schedule__table_col:nth-child(2n) {
+    background-color: #fffefe;
+}
+
+.schedule__info {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.schedule__info_bold {
+    font-weight: bold;
+}

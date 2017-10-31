@@ -24,3 +24,25 @@
     cursor: pointer;
 }
 
+.prices__header {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+    color: #08afee;
+    line-height: 20px;
+    margin-bottom: 27px;
+}
+
+.price__block {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    margin-bottom: 35px;
+    line-height: 22px;
+}
+
+.price__block_bold {
+    font-weight: bold;
+}
+
+.price__block_blue {
+    color: #08afee;
+}
