@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
 export default class Prices extends Component {
+
+    exitPrices() {
+        const window = document.getElementsByClassName('prices')[0];
+        window.style.display = 'none';
+    }
+
     render () {
         return (
             <div className='prices'>
                 <div className="prices__position">
-                    <div className="prices__exit"></div>
+                    <div onClick={this.exitPrices.bind(this)} className="prices__exit"></div>
                     <div className="prices__header">
                         Schedule
                     </div>

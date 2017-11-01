@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
 export default class OurTeachers extends Component {
+
+    exitOurTeachers() {
+        const window = document.getElementsByClassName('teachers')[0];
+        window.style.display = 'none';
+    }
+
     render () {
         return (
             <div className='teachers'>
                 <div className="teachers__position">
-                    <div className="teachers__exit"></div>
+                    <div onClick={this.exitOurTeachers.bind(this)} className="teachers__exit"></div>
                     <div className="teachers__header">
                         Our teachers
                     </div>

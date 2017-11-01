@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 
 export default class About extends Component {
+
+    exitAbout() {
+        const window = document.getElementsByClassName('about')[0];
+        window.style.display = 'none';
+    }
+
     render () {
         return (
             <div className='about'>
@@ -18,7 +24,7 @@ export default class About extends Component {
                         <div className="about__block_down"></div>
                     </div>
                 </div>
-                <div className='about__exit'></div>
+                <div onClick={this.exitAbout.bind(this)} className='about__exit'></div>
             </div>
          );
     }

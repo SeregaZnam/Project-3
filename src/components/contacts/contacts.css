@@ -35,7 +35,6 @@
     display: inline-block;
     width: 285px;
     height: 225px;
-    outline: 1px solid red;
 }
 
 .contacts__block_address {
@@ -62,14 +61,53 @@
 }
 
 
+.contacts__block_email {
+    color: #08afee;
+}
+
 .contacts__text {
     position: absolute;
     margin-top: 20px;
-    line-height: 24px;
+    line-height: 21px;
 }
 
-.contacts__form {
+.contacts__formdata {
     width: 100%;
     height: 310px;
-    outline: 1px solid black;
+    margin-top: 50px;
+}
+
+.contacts__form_name,
+.contacts__form_email,
+.contacts__form_message {
+    margin-top: 5px;
+    border: 1px solid #e5e4e3;
+    width: 566px;
+    height: 28px;
+    text-indent: 15px;
+}
+
+.contacts__form_message {
+    height: 122px;
+    resize: none;
+}
+
+::-webkit-input-placeholder {color:#b4b4b4;}
+::-moz-placeholder          {color:#b4b4b4;}
+:-moz-placeholder           {color:#b4b4b4;}
+:-ms-input-placeholder      {color:#b4b4b4;}
+
+.contacts__form_btn {
+    float: right;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.contacts__link_clear {
+    color: #08afee;
+}
+.contacts__link_send {
+    margin-left: 19px;
+    color: #08afee;
 }

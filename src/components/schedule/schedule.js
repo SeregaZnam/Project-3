@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
 export default class Schedule extends Component {
+
+    exitSchedule() {
+        const window = document.getElementsByClassName('schedule')[0];
+        window.style.display = 'none';
+    }
+
     render () {
         return (
             <div className='schedule'>
                 <div className="schedule__position">
-                    <div className="schedule__exit"></div>
+                    <div onClick={this.exitSchedule.bind(this)} className="schedule__exit"></div>
                     <div className="schedule__header">
                         Schedule
                     </div>
