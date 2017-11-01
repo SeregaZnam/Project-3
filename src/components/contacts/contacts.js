@@ -1,5 +1,24 @@
 import React, { Component } from 'react';
 
+const validData = value => {
+    let str = '';
+    for(let key in value) {
+        if(!value[key]) {
+            str += key + ', ';
+            document.getElementsByClassName('contacts__form_' + key)[0].style.outline = '1px solid red';
+        } else {
+            document.getElementsByClassName('contacts__form_' + key)[0].style.outline = 'none';
+        }
+    }
+    if (str === '') {
+        return true;
+    } else {
+        str = str.slice(0, -2) + '.';
+        alert('Не заполнены поля: ' + str);
+        return false
+    }
+};
+
 export default class Contacts extends Component {
     constructor(props) {
         super(props);
@@ -23,7 +42,9 @@ export default class Contacts extends Component {
     }
 
     handleSubmit(event) {
-        alert('Отправляется форма со следующими данными:\nName: ' + this.state.name + '\nEmail: ' + this.state.email + '\nMessage: ' + this.state.message);
+        if(validData(this.state)) {
+            alert('Отправляется форма со следующими данными:\nName: ' + this.state.name + '\nEmail: ' + this.state.email + '\nMessage: ' + this.state.message);
+        }
         event.preventDefault();
     }
 

@@ -10,6 +10,11 @@ import OurTeachers from './components/our-teachers/our-teachers';
 import Footer from './components/footer/footer';
 
 class App extends Component {
+
+  action () {
+      document.getElementsByTagName('body')[0].style.backgroundImage = "url(image/bg_img1.jpg)";
+  }
+
   render() {
     return (
         <div>
