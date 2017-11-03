@@ -17,11 +17,19 @@ body {
 }
 
 .carousel__block {
-  position: relative;
   float: left;
   width: 100%;
   height: 749px;
   z-index: -1;
+}
+
+ol.carousel-indicators {
+  bottom: -78px;
+  left: 673px;
+}
+
+.carousel-indicators {
+
 }
 
 .content__image_main1,

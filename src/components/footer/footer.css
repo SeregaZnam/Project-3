@@ -20,12 +20,9 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    background-color: #059be8;
     text-align: center;
     line-height: 22px;
     margin-left: 3px;
-    color: white;
 }
 
 .footer__block_center {

@@ -8,9 +8,9 @@ export default class Footer extends Component {
                     <div className="footer__block-left">
                         <div className="footer__block_center">
                             Background:
-                            <div className="footer__number">1</div>
-                            <div className="footer__number">2</div>
-                            <div className="footer__number">3</div>
+                            <div className="footer__number"></div>
+                            <div className="footer__number"></div>
+                            <div className="footer__number"></div>
                         </div>
                         <div className="footer__block-left_icons">
                             <div className="footer_icon"><a href="#"></a></div>

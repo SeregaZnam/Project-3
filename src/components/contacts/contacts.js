@@ -54,6 +54,9 @@ export default class Contacts extends Component {
             email: '',
             message: ''
         });
+        for(let key in this.state) {
+            document.getElementsByClassName('contacts__form_' + key)[0].style.outline = 'none';
+        }
     }
 
     exitConstacts() {
@@ -99,8 +102,8 @@ export default class Contacts extends Component {
                             <textarea value={this.state.message} onChange={this.changeMessage.bind(this)} className="contacts__form_message" placeholder="Message">
                             </textarea>
                             <div className="contacts__form_btn">
-                                <a href="#" onClick={this.handleSubmit.bind(this)} className="contacts__link_clear">Clear</a>
-                                <a href="#" onClick={this.clearInput.bind(this)} className="contacts__link_send">Send</a>
+                                <a href="#" onClick={this.clearInput.bind(this)} className="contacts__link_clear">Clear</a>
+                                <a href="#" onClick={this.handleSubmit.bind(this)} className="contacts__link_send">Send</a>
                             </div>
                         </form>
                     </div>
