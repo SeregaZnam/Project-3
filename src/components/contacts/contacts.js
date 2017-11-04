@@ -96,7 +96,7 @@ export default class Contacts extends Component {
                     </div>
                     <div className="contacts__formdata">
                         <div className="contacts__header">Contact Form</div>
-                        <form action="POST" onSubmit={this.handleSubmit.bind(this)} className="contacts__form">
+                        <form action="" onSubmit={this.handleSubmit.bind(this)} className="contacts__form">
                             <input type="text" value={this.state.name} onChange={this.changeName.bind(this)} className="contacts__form_name" placeholder="Name"/>
                             <input type="text" value={this.state.email} onChange={this.changeEmail.bind(this)} className="contacts__form_email" placeholder="Email"/>
                             <textarea value={this.state.message} onChange={this.changeMessage.bind(this)} className="contacts__form_message" placeholder="Message">
